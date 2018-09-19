@@ -1,0 +1,88 @@
+﻿body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul.places li{
+    display: inline-block;
+    border:ridge;
+    border-color: lightblue;
+    border-width: 20px;
+    border-radius: 5px;
+}
+ul.places header{
+    text-align: center;
+}
+li{
+    display: inline;
+}
+a.special:link {
+    background-color: skyblue;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 29%;
+}
+a.special:hover {
+    background-color: aquamarine;
+}
+a.special:visited {
+    color: black;
+}
+div.complex {
+    position: relative;
+}
+div.cleart img{
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+    z-index: -1;
+}
+header.main {
+    z-index: 3;
+    font-size: x-large;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-family: Stencil;
+}
+
+div.listImages img{
+    width: 30%;
+    float: left;
+    margin: 10px;
+}
+
+p {
+    padding: 50px;
+}
+h1{
+    text-align: center;
+}
+#grad {
+    background-image: linear-gradient(lightblue, lightpink);
+}
+p.hist {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 10px;
+    text-indent: 50px;
+    line-height: 2;
+}
+#transform{
+    float:right;
+    margin: 10px;
+    box-shadow: 3px 6px 12px rgba(0, 0, 0, .5);
+    transform:rotate3d(180deg);
+}
+#transform2 {
+    float: left;
+    margin: 10px;
+    box-shadow: 3px 6px 12px rgba(0, 0, 0, .5);
+}
+footer {
+    text-align: center;
+    opacity: 0.8;
+}
